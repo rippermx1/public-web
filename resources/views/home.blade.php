@@ -50,7 +50,7 @@
                         <div class="col-xl-10 col-lg-10 col-md-6">
                             <div class="header-right">
                                 <div class="header-btn f-right">
-                                    <a href="{{ url('contact') }}" class="btn btn-border h2-btn-orrange-bg">Sign up</a>
+                                    <a href="/contact" class="btn btn-border h2-btn-orrange-bg">Sign up</a>
                                 </div>
                                 <!-- main menu -->
                                 <div class="main-menu h2-main-menu f-right">
