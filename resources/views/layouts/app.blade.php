@@ -78,8 +78,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
                         <div class="footer-widget">
                             <div class="footer-address">
-                                <address>394 University Ave.
-                                    Paolo Alto, CA 957236</address>
+                                <address>Por ahí</address>
                             </div>
                             <div class="footer-cta">
                                 <ul>
@@ -105,10 +104,10 @@
                             </div>
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Service</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Price</a></li>
+                                    <li><a href="{{ url('/about') }}">About Us</a></li>
+                                    <li><a href="{{ url('/') }}#">Service</a></li>
+                                    <li><a href="{{ url('/contact') }}">Contact</a></li>
+                                    <li><a href="{{ url('/') }}#">Price</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -138,8 +137,8 @@
                                 </form>
                             </div>
                             <div class="footer-copyright">
-                                <a href="index.html" class="footer-logo">Xilo</a>
-                                <p>© 2018_FabiDesign_Lab</p>
+                                <a href="{{ url('/') }}" class="footer-logo">Xilo</a>
+                                <p>© 2018 Pico_Lab</p>
                             </div>
                         </div>
                     </div>
