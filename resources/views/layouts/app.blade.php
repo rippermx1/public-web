@@ -34,7 +34,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-6">
                         <!-- logo -->
                         <div class="logo-area">
-                            <a href="index.html" class="logo"><img src="img/logo/logo.png" alt=""></a>
+                            <a href="{{ url('/') }}" class="logo"><img src="img/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-6">
@@ -46,13 +46,12 @@
                             <div class="main-menu h2-main-menu f-right">
                                 <nav id="mobile-menu">
                                     <ul class="list-inline">
-                                        <li class="active"><a href="#home">Home</a></li>
-                                        <li><a href="#about">About</a></li>
-                                        <li><a href="#service">Service</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
-                                        <li><a href="#price">Price</a></li>
-                                        <li><a href="#blog">Blog</a></li>
-                                        <li><a href="#contact">Contact</a></li>
+                                        <li class="active"><a href="{{ url('/') }}">Home</a></li>
+                                        <li><a href="{{ url('/about') }}">About</a></li>
+                                        <li><a href="{{ url('/') }}#service">Service</a></li>
+                                        <li><a href="{{ url('/') }}#portfolio">Portfolio</a></li>
+                                        <li><a href="{{ url('/') }}#price">Price</a></li>
+                                        <li><a href="{{ url('/contact') }}">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
