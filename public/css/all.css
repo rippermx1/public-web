@@ -2057,6 +2057,10 @@ ul.list-inline li {
 	font-weight: normal;
 	font-style: normal;
 }
+
+.width-fix-img{
+	width: 100%;
+}
 /* body */
  body {
 	font-family: 'Nunito', sans-serif;
@@ -4479,7 +4483,7 @@ ul.cat li a:hover {
     margin: 0 15px;
 }
 .promo-shape img {
-    width: 60%;
+    width: 50%;
 }
 .video-thumb {
     margin-left: -10%;

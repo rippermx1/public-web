@@ -32,6 +32,10 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+.width-fix-img{
+	width: 100%;
+}
 /* body */
  body {
 	font-family: 'Nunito', sans-serif;

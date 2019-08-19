@@ -5,7 +5,7 @@
     <main>
         <!-- Hero start -->
         <section id="hero">
-            <div class="hero-area hero-overlay-bg h2-hero-bg pos-rel" data-background="img/hero/h2-slider-bg-1.jpg">
+            <div class="hero-area hero-overlay-bg h2-hero-bg pos-rel" /*data-background="img/hero/h2-slider-bg-1.jpg"*/>
                 <div class="h2-hero-shape">
                     <img src="img/Shape/h2-hero-shape-right.png" alt="">
                 </div>
@@ -28,7 +28,7 @@
                         <div class="col-xl-5 col-lg-4">
                             <div class="intro-banner h2-intro-banner wow zoomIn animated" data-wow-delay="1s"
                                  data-wow-duration="2s">
-                                <img src="img/hero/banner-2.png" alt="Phone Mockup">
+                                <img class="width-fix-img" src="img/hero/banner-2.png" alt="Phone Mockup">
                             </div>
                         </div>
                     </div>
